@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 26px 0;
+    background-color: #b63783;
+    color: #fcecf2;
+}
+
+header {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+body, input, textarea {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #fcecf2;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+header .container, section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.covers img {
+    align-items: center;
+    height: 300px;
+}
+
+.covers li {
+    margin-right: 35px;
+    display: inline;
+}
+
+.final-cover {
+    height: 380px;
+    margin-right: 35px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section h2, h3, p {
+    color: #b63783;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#about div{
+    display: block;
+}
+
+#contact .container {
+    display: flex;
+}
+
+#contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links img {
+    margin-top: 20px;
+    height: 50px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+form input, textarea, button {
+    display: block;
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+form button {
+    background-color: #b63783;
+    color: #fcecf2;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+}
+
+form button:hover {
+    background-color: #da52a3;
+}
+
+input:focus, textarea:focus {
+    outline-color: #b63783;
+}
+
+footer .container p{
+    color: #fcecf2;
+}
+
+footer {
+    background-color: #b63783;
+    color: #fcecf2;
+    padding: 3px 0;
+}
